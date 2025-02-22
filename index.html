@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Immaculate Health – Empowering Mental Wellness</title>
+  <style>
+    /* Base Styles */
+    body {
+      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #333;
+      line-height: 1.6;
+      background: #f0f0f0;
+    }
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    /* Header & Navigation */
+    header {
+      background: #4169E1; /* Royal Blue */
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.8em;
+      margin: 0;
+    }
+    header p {
+      font-size: 1.2em;
+      margin: 10px 0 20px;
+    }
+    nav {
+      background: #27408B; /* Darker Royal Blue */
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: #fff;
+      padding: 15px 25px;
+      text-transform: uppercase;
+      font-size: 0.9em;
+      transition: background 0.3s ease;
+    }
+    nav a:hover {
+      background: #1e3a69;
+    }
+    /* Main Container */
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      padding: 20px;
+    }
+    /* Section Card - Uniform Card Style for all sections */
+    .section-card {
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 20px;
+      margin: 20px 0;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    /* Section Headings */
+    section h2 {
+      color: #4169E1;
+      margin-bottom: 20px;
+      font-size: 2em;
+    }
+    /* CTA Buttons */
+    .cta-buttons a {
+      display: inline-block;
+      background: #4169E1;
+      color: #fff;
+      padding: 10px 20px;
+      margin: 10px 10px 10px 0;
+      border-radius: 5px;
+      transition: background 0.3s ease;
+    }
+    .cta-buttons a:hover {
+      background: #27408B;
+    }
+    /* Content Blocks */
+    .highlight {
+      background: #f4f4f4;
+      padding: 15px;
+      margin: 15px 0;
+      border-left: 4px solid #4169E1;
+    }
+    /* Forms */
+    form input[type="text"],
+    form input[type="email"],
+    form textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 5px 0 15px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+    }
+    form button {
+      background: #4169E1;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+    form button:hover {
+      background: #27408B;
+    }
+    /* FAQ Section Styling */
+    #faqs {
+      padding: 40px 20px;
+    }
+    #faqs h2 {
+      text-align: center;
+      color: #4169E1;
+      margin-bottom: 30px;
+      font-size: 2.2em;
+    }
+    .faq-container {
+      max-width: 800px;
+      margin: auto;
+    }
+    .faq-item {
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 15px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .faq-item:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    }
+    .faq-question {
+      margin: 0 0 10px;
+      font-size: 1.1em;
+      color: #27408B;
+    }
+    .faq-answer {
+      margin: 0;
+      font-size: 1em;
+      color: #555;
+    }
+    /* Footer */
+    footer {
+      background: #4169E1;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+    }
+    /* Responsive */
+    @media (max-width: 768px) {
+      nav {
+        flex-direction: column;
+      }
+      nav a {
+        padding: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header id="home">
+    <div class="container">
+      <h1>Immaculate Health</h1>
+      <p>Empowering Mental Wellness, One Step at a Time</p>
+      <div class="cta-buttons">
+        <a href="#contact">Book an Appointment</a>
+        <a href="#services">Learn More About Our Services</a>
+      </div>
+    </div>
+  </header>
+  <!-- Navigation -->
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#services">Services</a>
+    <a href="#about">About Us</a>
+    <a href="#contact">Contact Us</a>
+    <a href="#faqs">FAQs</a>
+  </nav>
+  <!-- Main Content -->
+  <div class="container">
+    <!-- Home Overview -->
+    <section id="home-overview">
+      <div class="section-card">
+        <h2>Welcome to Immaculate Health</h2>
+        <p>Immaculate Health is a healthcare organisation that prioritises individuals’ mental health and wellbeing. Through compassionate and client-focused approaches, our clinicians attentively listen to your concerns, conduct thorough clinical interviews and assessments, and guide your journey of recovery using evidence-based treatments and psychotherapies.</p>
+        <h3>Our Vision</h3>
+        <p>"Empowering individuals to achieve their full potential through holistic health and an enduring commitment to excellence in healthcare."</p>
+        <h3>Our Mission</h3>
+        <p>"At Immaculate Health, we provide compassionate, evidence-based healthcare that nurtures holistic well-being. Guided by our values of trustworthiness, knowledge, and service, we empower individuals to lead healthier, more fulfilling lives through personalised care, innovation, and the pursuit of the highest ethical and professional standards in healthcare."</p>
+        <div class="cta-buttons">
+          <a href="#contact">Book an Appointment</a>
+          <a href="#services">Learn More About Our Services</a>
+        </div>
+        <h3>Featured Services</h3>
+        <p>Explore our range of psychological services designed to meet your unique needs. <a href="#services">View all services</a>.</p>
+        <h3>Client Testimonials</h3>
+        <p>"[Client testimonial placeholder - anonymized]"</p>
+      </div>
+    </section>
+    <!-- Services -->
+    <section id="services">
+      <div class="section-card">
+        <h2>Our Services</h2>
+        <p>All our clinicians are fully registered with AHPRA and maintain active memberships with their respective professional bodies. We offer a comprehensive range of psychological services:</p>
+        <h3>Individual Therapy</h3>
+        <ul>
+          <li>Anxiety &amp; Panic Disorders</li>
+          <li>ASD (Autism Spectrum Disorder) / Neurodiversity</li>
+          <li>ADHD (Behavioural Management &amp; Support)</li>
+          <li>Depression &amp; Mood Disturbances</li>
+          <li>Panic Attacks &amp; Social Withdrawal</li>
+          <li>Adjustment Difficulties &amp; Life Transitions</li>
+          <li>Mood Swings &amp; Emotional Dysregulation</li>
+          <li>Perinatal Mental Health (Pregnancy, Prenatal &amp; Postpartum)</li>
+        </ul>
+        <h3>Common Challenges Addressed</h3>
+        <ul>
+          <li>Low Motivation &amp; Lack of Drive</li>
+          <li>Self-Confidence &amp; Self-Esteem Issues</li>
+          <li>Building Resilience &amp; Coping Skills</li>
+          <li>Academic, School &amp; Learning Challenges</li>
+          <li>Procrastination &amp; Perfectionism Tendencies</li>
+          <li>Relationship &amp; Attachment Concerns</li>
+          <li>Peer &amp; Friendship Difficulties</li>
+          <li>Bullying &amp; Social Conflicts</li>
+          <li>Identity, Values &amp; Goal Setting</li>
+          <li>Social Transitions &amp; Cultural Adaptation</li>
+          <li>Parenting Struggles &amp; Family Dynamics</li>
+          <li>Negative Thought Patterns &amp; Mindset Shifts</li>
+          <li>Racial Identity, Stereotypes &amp; Cultural Integration</li>
+          <li>Psychosomatic Symptoms &amp; Stress-Related Complaints</li>
+        </ul>
+        <h3>Additional Services</h3>
+        <ul>
+          <li>Child-play Therapy</li>
+          <li>Parent Collaborative Intervention</li>
+          <li>Workplace &amp; Career Counselling</li>
+          <li>Psychological Assessments</li>
+        </ul>
+        <p><strong>Note:</strong> Assessments are not covered by NDIS, Medicare or Private Health Funds.</p>
+        <ul>
+          <li>Autism Spectrum Disorder diagnostic assessment</li>
+          <li>Other psychometric assessments: ADHD, Body Image and Eating, Personality, Emotional Distress, Stress, Mood and Feelings, Depression, Anxiety, Panic, Obsessive Compulsive, Self-esteem, and Disability and Functioning</li>
+        </ul>
+        <p>Telehealth &amp; Online Therapy options are available upon agreement.</p>
+        <h3>Pricing &amp; Insurance</h3>
+        <div class="highlight">
+          <p><strong>Full fee:</strong> $230* per session. With a MHCP referral, a session attracts a rebate of $96.65, leaving a gap of $133.35. Session fees are payable on the day and we process your Medicare rebate claim.</p>
+          <p><strong>Insurance Scheme Referral:</strong> $310* per session, payable by the insurance company. (*Australian Psychological Society national schedule of fees 2024-2025 is $311.)</p>
+          <p>Medicare rebates are available for up to 10 individual counselling sessions per calendar year provided you obtain either a GP’s referral with a Mental Health Care Plan (MHCP/MHTP) or a Psychiatrist/Paediatrician Referral.</p>
+          <p><em>Alternatively, private health rebates may be applicable – please contact your health fund for details.</em></p>
+        </div>
+      </div>
+    </section>
+    <!-- About Us -->
+    <section id="about">
+      <div class="section-card">
+        <h2>About Us</h2>
+        <p>Health is a core necessity for living an optimal life. At Immaculate Health, we recognise the intertwined importance of mental and physical well-being. Our founder and Clinic Director, Dian, established Immaculate Health to provide holistic care underpinned by the highest ethical and professional standards.</p>
+        <h3>Meet Our Team</h3>
+        <p><strong>Dian</strong> – Principal Psychologist &amp; Clinic Director</p>
+        <p>With over 15 years of experience, Dian is passionate about supporting children with behavioural and emotional challenges. She tailors her approach for children as young as three years old through adolescence, ensuring developmental needs are met. Dian also has extensive experience working with CALD communities, individuals with special needs, and clients facing complex psychological challenges. Her practice is grounded in evidence-based methodologies and compassionate care.</p>
+        <h3>Accreditations &amp; Memberships</h3>
+        <p>We are proud members of the Australian Psychological Society (APS) and all our clinicians are registered with AHPRA.</p>
+        <h3>Our Approach &amp; Philosophy</h3>
+        <p>We believe in a holistic, client-centred approach that blends evidence-based treatments with compassionate care, empowering every individual to achieve optimal mental wellness.</p>
+      </div>
+    </section>
+    <!-- Contact Us -->
+    <section id="contact">
+      <div class="section-card">
+        <h2>Contact Us</h2>
+        <p><strong>Address:</strong> Level 2, 33 Legal Street, Sunnybank QLD 4109</p>
+        <p><strong>Phone:</strong> 0424 604 602</p>
+        <p><strong>Email:</strong> <a href="mailto:info@immaculatehealth.com.au">info@immaculatehealth.com.au</a></p>
+        <p><strong>Operating Hours:</strong> Please contact us for details.</p>
+        <h3>Get In Touch</h3>
+        <form action="submit_form.php" method="POST">
+          <label for="name">Name:</label><br>
+          <input type="text" id="name" name="name" required><br>
+          
+          <label for="email">Email:</label><br>
+          <input type="email" id="email" name="email" required><br>
+          
+          <label for="message">Message:</label><br>
+          <textarea id="message" name="message" rows="5" required></textarea><br>
+          
+          <button type="submit">Submit</button>
+        </form>
+        <h3>Emergency or Crisis Support</h3>
+        <ul>
+          <li>Police, Fire or Ambulance – 000</li>
+          <li>Lifeline – 13 11 14</li>
+          <li>13HEALTH – 13 43 25 84</li>
+          <li>Mental Health Access Line – 1300 MH CALL (1300 642 255)</li>
+          <li>Kids Helpline – 1800 55 1800 (for young people up to the age of 25)</li>
+          <li>Domestic Violence Hotline (QLD) – 1800 811 811</li>
+          <li>Mensline – 1300 78 99 78</li>
+          <li>Parentline (QLD) – 1300 30 1300</li>
+        </ul>
+      </div>
+    </section>
+    <!-- FAQs -->
+    <section id="faqs">
+      <div class="section-card">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-container">
+          <div class="faq-item">
+            <h4 class="faq-question">Do I need a referral to book an appointment?</h4>
+            <p class="faq-answer">No referral is needed to book an appointment.</p>
+          </div>
+          <div class="faq-item">
+            <h4 class="faq-question">Do you offer online therapy sessions?</h4>
+            <p class="faq-answer">Yes, online therapy sessions via telehealth are available upon agreement.</p>
+          </div>
+          <div class="faq-item">
+            <h4 class="faq-question">How long is each session?</h4>
+            <p class="faq-answer">Each session lasts for about 50 minutes.</p>
+          </div>
+          <div class="faq-item">
+            <h4 class="faq-question">Do you accept Medicare rebates or private health insurance?</h4>
+            <p class="faq-answer">Yes, we accept both. Please ensure you have the necessary referrals.</p>
+          </div>
+          <div class="faq-item">
+            <h4 class="faq-question">What are the costs of therapy sessions?</h4>
+            <p class="faq-answer">Session fees vary. Please refer to the Pricing &amp; Insurance section for detailed information.</p>
+          </div>
+          <div class="faq-item">
+            <h4 class="faq-question">Are my therapy sessions confidential?</h4>
+            <p class="faq-answer">Absolutely. Your privacy is our utmost priority.</p>
+          </div>
+          <div class="faq-item">
+            <h4 class="faq-question">What should I expect during my first session?</h4>
+            <p class="faq-answer">Your initial session involves a comprehensive discussion of your concerns and an introduction to our approach.</p>
+          </div>
+          <div class="faq-item">
+            <h4 class="faq-question">How many sessions will I need?</h4>
+            <p class="faq-answer">The number of sessions is determined based on your unique needs, with guidance from your therapist.</p>
+          </div>
+          <div class="faq-item">
+            <h4 class="faq-question">Where are these sessions held?</h4>
+            <p class="faq-answer">In-person counselling sessions occur at our clinic in Sunnybank, QLD.</p>
+          </div>
+          <div class="faq-item">
+            <h4 class="faq-question">Can I access Telehealth counselling?</h4>
+            <p class="faq-answer">Yes, with a prior agreement with your clinician.</p>
+          </div>
+          <div class="faq-item">
+            <h4 class="faq-question">How often do the sessions occur?</h4>
+            <p class="faq-answer">Counselling sessions usually occur every fortnight, although weekly sessions may be arranged based on clinical considerations.</p>
+          </div>
+          <div class="faq-item">
+            <h4 class="faq-question">What is your Cancellation Policy?</h4>
+            <p class="faq-answer">
+              When you book an appointment, a specific time slot is reserved for you. Please notify us at least 48 hours in advance if you need to cancel. A cancellation fee of $100 applies for notifications given less than 48 hours in advance. For cancellations/rescheduling with less than 24 hours’ notice, a fee of $95 will be charged, and missed sessions are charged at the full session fee. These fees do not attract a Medicare rebate. Three repeat cancellations or no-shows may result in a review of your treatment plan.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Immaculate Health. All rights reserved.</p>
+  </footer>
+</body>
+</html>
