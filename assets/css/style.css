@@ -18,7 +18,7 @@ ul {
 
 /* Container */
 .container {
-  max-width: 800px;
+  max-width: 800px; /* Standardized width */
   margin: 0 auto;
   padding: 20px;
 }
@@ -35,12 +35,13 @@ ul {
 }
 .sticky-header .header-container {
   display: flex;
-  flex-direction: column; /* Stack elements */
+  justify-content: space-between;
   align-items: center;
-  text-align: center;
+  padding: 10px 20px;
 }
 .sticky-header h1 {
-  margin-bottom: 10px; /* Add spacing */
+  margin: 0;
+  font-size: 1.5em;
 }
 .sticky-header nav ul {
   display: flex;
@@ -58,28 +59,6 @@ ul {
 }
 .sticky-header nav ul li a:hover {
   background: #27408B;
-}
-
-.nav-container {
-  width: 100%;
-}
-
-.nav-links {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 10px;
-}
-
-.nav-links li {
-  flex: 1 1 auto; /* Allows dynamic sizing */
-  text-align: center;
-}
-
-@media (max-width: 768px) {
-  .nav-links {
-    flex-direction: column; /* Stack links on smaller screens */
-  }
 }
 
 /* Spacing for fixed header */
@@ -101,7 +80,7 @@ body {
   margin-bottom: 20px;
 }
 
-/* Two-column layout for sections with images */
+/* Two-column layout */
 .section-with-image {
   display: flex;
   justify-content: space-between;
@@ -204,19 +183,53 @@ footer {
   padding: 20px;
   font-size: 0.9em;
 }
-
 .phone-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px; /* Spacing between columns */
+  gap: 20px;
   padding: 0;
   list-style: none;
 }
-
 .phone-list li {
-  flex: 1 1 calc(50% - 20px); /* Two columns, adjusting for spacing */
+  flex: 1 1 calc(50% - 20px);
   background: #fff;
   padding: 10px;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Styles */
+/* For viewport 768px or wider, hide hamburger */
+@media (min-width: 768px) {
+  .hamburger {
+    display: none;
+  }
+}
+
+/* For mobile view (less than 768px) */
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 1.5em;
+    cursor: pointer;
+  }
+  /* Hide nav by default; show when active */
+  #nav-menu {
+    display: none;
+    width: 100%;
+  }
+  #nav-menu.active {
+    display: block;
+  }
+  #nav-menu ul {
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0;
+  }
+  #nav-menu li {
+    margin: 10px 0;
+  }
 }
