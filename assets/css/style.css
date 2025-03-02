@@ -35,13 +35,12 @@ ul {
 }
 .sticky-header .header-container {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column; /* Stack elements */
   align-items: center;
-  padding: 10px 20px;
+  text-align: center;
 }
 .sticky-header h1 {
-  margin: 0;
-  font-size: 1.5em;
+  margin-bottom: 10px; /* Add spacing */
 }
 .sticky-header nav ul {
   display: flex;
@@ -59,6 +58,28 @@ ul {
 }
 .sticky-header nav ul li a:hover {
   background: #27408B;
+}
+
+.nav-container {
+  width: 100%;
+}
+
+.nav-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.nav-links li {
+  flex: 1 1 auto; /* Allows dynamic sizing */
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    flex-direction: column; /* Stack links on smaller screens */
+  }
 }
 
 /* Spacing for fixed header */
