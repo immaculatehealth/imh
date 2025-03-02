@@ -32,6 +32,16 @@ document.addEventListener('DOMContentLoaded', function() {
   revealButton.addEventListener('click', function(e) {
     e.stopPropagation();
     phoneNumber.textContent = "0424 604 602"; // Replace with full number
-    revealButton.style.display = "none"; // Hide the button after clicking
+    revealButton.style.display = "none";
   });
+
+  // Email obfuscation functionality
+  const emailLink = document.getElementById('email-link');
+  if (emailLink) {
+    const user = emailLink.getAttribute('data-user');
+    const domain = emailLink.getAttribute('data-domain');
+    const email = user + "@" + domain;
+    emailLink.setAttribute('href', 'mailto:' + email);
+    emailLink.textContent = email;
+  }
 });
