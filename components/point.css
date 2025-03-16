@@ -1,0 +1,63 @@
+.point-point {
+  gap: var(--dl-layout-space-halfunit);
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+ 
+.point-check {
+  display: flex;
+  padding: var(--dl-layout-space-halfunit);
+  align-items: flex-start;
+  border-radius: var(--dl-layout-radius-round);
+  flex-direction: column;
+  justify-content: center;
+  background-color: #EBFAF9;
+}
+ 
+.point-icon1 {
+  width: 12px;
+  height: 12px;
+}
+ 
+.point-text1 {
+  max-width: 535px;
+  font-style: normal;
+  font-family: "Poppins";
+  font-weight: 600;
+  line-height: 24px;
+}
+ 
+.point-fragment {
+  display: contents;
+}
+ 
+.point-text2 {
+  display: inline-block;
+}
+ 
+.pointroot-class-name {
+  position: static;
+}
+ 
+.pointroot-class-name1 {
+  position: static;
+}
+ 
+.pointroot-class-name2 {
+  position: static;
+}
+ 
+.pointroot-class-name3 {
+  position: static;
+}
+ 
+.pointroot-class-name4 {
+  position: static;
+}
+ 
+.pointroot-class-name5 {
+  position: static;
+}

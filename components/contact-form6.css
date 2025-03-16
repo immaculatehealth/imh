@@ -1,0 +1,289 @@
+.contact-form6-contact1 {
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.contact-form6-section-title {
+  gap: var(--dl-layout-space-unit);
+  width: 40%;
+  align-items: flex-start;
+}
+ 
+.contact-form6-content1 {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  display: flex;
+  align-self: stretch;
+  flex-direction: column;
+}
+ 
+.contact-form6-content2 {
+  gap: 16px;
+  display: flex;
+  padding: 8px 0;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.contact-form6-row1 {
+  gap: 16px;
+  display: flex;
+  align-items: flex-start;
+}
+ 
+.contact-form6-row2 {
+  gap: 16px;
+  display: flex;
+  align-items: flex-start;
+}
+ 
+.contact-form6-row3 {
+  gap: 16px;
+  display: flex;
+  align-items: flex-start;
+}
+ 
+.contact-form6-form {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  width: 60%;
+}
+ 
+.contact-form6-container1 {
+  gap: var(--dl-layout-space-unit);
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+ 
+.contact-form6-input1 {
+  gap: var(--dl-layout-space-halfunit);
+  width: 50%;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.contact-form6-input2 {
+  gap: var(--dl-layout-space-halfunit);
+  width: 50%;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.contact-form6-container2 {
+  gap: var(--dl-layout-space-unit);
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+ 
+.contact-form6-input3 {
+  gap: var(--dl-layout-space-halfunit);
+  width: 50%;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.contact-form6-input4 {
+  gap: var(--dl-layout-space-halfunit);
+  width: 50%;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.contact-form6-container3 {
+  flex: 0 0 auto;
+  width: 50%;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.contact-form6-input5 {
+  gap: var(--dl-layout-space-halfunit);
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.contact-form6-container4 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.contact-form6-input6 {
+  gap: var(--dl-layout-space-halfunit);
+  width: 100%;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.contact-form6-checkbox1 {
+  gap: var(--dl-layout-space-unit);
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+}
+ 
+.contact-form6-button {
+  align-self: flex-start;
+}
+ 
+.contact-form6-fragment1 {
+  display: contents;
+}
+ 
+.contact-form6-text20 {
+  display: inline-block;
+}
+ 
+.contact-form6-fragment2 {
+  display: contents;
+}
+ 
+.contact-form6-text21 {
+  display: inline-block;
+}
+ 
+.contact-form6-fragment3 {
+  display: contents;
+}
+ 
+.contact-form6-text22 {
+  display: inline-block;
+}
+ 
+.contact-form6-fragment4 {
+  display: contents;
+}
+ 
+.contact-form6-text23 {
+  display: inline-block;
+}
+ 
+.contact-form6-fragment5 {
+  display: contents;
+}
+ 
+.contact-form6-text24 {
+  display: inline-block;
+}
+ 
+.contact-form6-fragment6 {
+  display: contents;
+}
+ 
+.contact-form6-text25 {
+  display: inline-block;
+}
+ 
+.contact-form6-fragment7 {
+  display: contents;
+}
+ 
+.contact-form6-text26 {
+  display: inline-block;
+}
+ 
+@media(max-width: 991px) {
+  .contact-form6-max-width {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .contact-form6-section-title {
+    width: 100%;
+  }
+  .contact-form6-form {
+    width: 100%;
+  }
+  .contact-form6-container1 {
+    gap: var(--dl-layout-space-twounits);
+    width: 100%;
+    flex-direction: row;
+  }
+  .contact-form6-input1 {
+    width: 50%;
+  }
+  .contact-form6-input2 {
+    width: 50%;
+    flex-direction: column;
+  }
+  .contact-form6-container2 {
+    gap: var(--dl-layout-space-twounits);
+    width: 100%;
+    flex-direction: row;
+  }
+  .contact-form6-input3 {
+    width: 50%;
+  }
+  .contact-form6-input4 {
+    width: 50%;
+  }
+  .contact-form6-container3 {
+    gap: var(--dl-layout-space-twounits);
+    width: 100%;
+    flex-direction: row;
+  }
+  .contact-form6-input5 {
+    gap: var(--dl-layout-space-halfunit);
+    width: 50%;
+    flex-direction: column;
+  }
+  .contact-form6-container4 {
+    gap: var(--dl-layout-space-twounits);
+    width: 100%;
+    flex-direction: row;
+  }
+  .contact-form6-checkbox1 {
+    align-self: flex-start;
+  }
+}
+ 
+@media(max-width: 479px) {
+  .contact-form6-text12 {
+    text-align: center;
+  }
+  .contact-form6-form {
+    padding: var(--dl-layout-space-unit);
+  }
+  .contact-form6-container1 {
+    align-items: stretch;
+    flex-direction: column;
+  }
+  .contact-form6-input1 {
+    width: 100%;
+  }
+  .contact-form6-input2 {
+    width: 100%;
+  }
+  .contact-form6-container2 {
+    align-items: stretch;
+    flex-direction: column;
+  }
+  .contact-form6-input3 {
+    width: 100%;
+  }
+  .contact-form6-input4 {
+    width: 100%;
+  }
+}

@@ -1,0 +1,27 @@
+.pricing1-container {
+  display: flex;
+  position: relative;
+}
+ 
+.pricing1-pricing1 {
+  font-size: 40px;
+  max-width: 640px;
+  font-style: normal;
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: 56px;
+}
+ 
+.pricing1-fragment {
+  display: contents;
+}
+ 
+.pricing1-pricing2 {
+  display: inline-block;
+  font-size: 40px;
+  max-width: 640px;
+  font-style: normal;
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: 56px;
+}
