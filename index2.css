@@ -2620,7 +2620,7 @@
  
 .home-image2 {
   width: 400px;
-  border: 2px dashed rgba(120, 120, 120, 0.4);
+  border: none;
   height: 590px;
   display: flex;
   position: relative;
