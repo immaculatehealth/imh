@@ -2628,7 +2628,7 @@
   flex-direction: row;
   background-size: cover;
   justify-content: center;
-  background-image: url("public/room.jpg");
+  background-image: url("public/room.jpeg");
   background-repeat: no-repeat;
   background-position: center;
 }
